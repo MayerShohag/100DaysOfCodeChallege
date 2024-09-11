@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "karla";
+}
+.container {
+  background-color: #e0f1e7;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.labels {
+  margin: 10px 0;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+}
+.contact-section h1 {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.row {
+  border: 1px solid rgb(200, 200, 200);
+  width: 800px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+/* firstname section starts from here */
+.firstOrLastName {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.first-Name,
+.last-Name {
+  width: 100%;
+}
+
+.spacer {
+  margin-bottom: 20px;
+}
+#firstName,
+#lastName,
+#email {
+  width: 100%;
+  height: 35px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 5px;
+  padding: 0 10px;
+}
+#firstName:hover,
+#firstName:focus,
+#lastName:hover,
+#lastName:focus,
+#email:hover,
+#email:focus,
+.general-Enquiry:hover,
+.general-Enquiry:focus,
+.support-Request:hover,
+.support-Request:focus,
+#message:hover, #message:focus{
+  border: 1px solid #005cc8;
+}
+/* firstname section ends here */
+
+/* Query Type section starts from here  */
+.Queries {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.general-Enquiry,
+.support-Request {
+  width: 100%;
+  height: 35px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+[type="radio"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+/* Query Type section ends here */
+
+/* textarea section starts from here  */
+.message-section {
+  width: 100%;
+}
+#message {
+  width: 100%;
+  height: 100px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 5px;
+  padding: 10px;
+  resize: none;
+}
+/* textarea section ends here  */
+
+/* terms and condition section starts from here  */
+.term-Condition input[type="checkbox"] {
+  height: 18px;
+  width: 18px;
+  cursor: pointer;
+}
+.term-Condition {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 25px 0;
+}
+/* terms and condition section ends here */
+/* submit button section starts from here  */
+.submit-button {
+  width: 100%;
+}
+[type="submit"] {
+  width: 100%;
+  height: 35px;
+  border: 1px solid #005cc8;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #005cc8;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+/* submit button section ends here */

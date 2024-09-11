@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#Day1</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="contact-section">
+                <h1>Contact Us</h1>
+            </div>
+            <form>
+                <div class="firstOrLastName spacer">
+                    <div class="first-Name">
+                        <label for="firstName" class="labels" title="First Name">First Name</label><br>
+                        <input type="text" name="firstName" id="firstName" required title="Enter First Name">
+                    </div>
+                    <div class="last-Name">                    
+                        <label for="lastName" class="labels"  title="last Name">Last Name</label><br>
+                        <input type="text" name="lastName" id="lastName" required title="Enter Last Name">
+                    </div>
+                </div>
+                <div class="email-section spacer">
+                    <label for="email" class="labels" >Email Address</label><br>
+                    <input type="email" name="email" id="email" title="Enter Email Address" required>
+                </div>
+                <div class="queryType spacer">
+                    <label for="QueriesType" class="labels" >Query Type</label>
+                    <div class="Queries">
+                        <div class="general-Enquiry">
+                            <input type="radio" name="queries" value="General Enquiry" id="generalEnquiry" title="General Enquiry">
+                            <label for="generalEnquiry"> General Enquiry</label>
+                        </div>
+                        <div class="support-Request">
+                            <input type="radio" name="queries" value="Support Request" id="supportRequest" title="Support Request">
+                            <label for="supportRequest">Support Request</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="message-section">
+                    <label for="message" class="labels" >Message</label><br>
+                    <textarea name="message" id="message" title="Your message here" placeholder="Your message here..."></textarea>
+                </div>
+                <div class="term-Condition">
+                    <input type="checkbox" name="agreed" value="I agreed to Terms and Conditions"  id="termsAndConditions" title="check the box">
+                    <label for="termsAndConditions" title="Agree the Terms And Conditions">I consent to being contacted by the team</label>
+                </div>
+                <div class="submit-button">
+                    <button type="submit" title="Submit the document">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

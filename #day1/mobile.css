@@ -1,0 +1,14 @@
+@media (width <=430px) {
+    .container{
+        height: 900px;
+    }
+    .firstOrLastName{
+        flex-direction: column;
+    }
+    .Queries{
+        flex-direction: column;
+    }
+    #message{
+        height: 150px;
+    }
+}
