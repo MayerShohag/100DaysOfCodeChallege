@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Guerrilla&display=swap');
+
+* {
+    font-family: "Oswald", sans-serif;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: rgb(245, 245, 245);
+}
+
+
+/* site logo section start  */
+.icons-logo h1 {
+    color: tomato;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+
+/* site logo section ends  */
+/* navigation menu start  */
+.nav-menu ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-menu ul li a {
+    color: gray;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nav-menu ul li a:hover,
+.nav-menu ul li a:focus {
+    padding-bottom: 18px;
+    color: black;
+    border-bottom: 2px solid gray;
+}
+
+/* navigation menu ends */
+/* header section ends  */
+
+
+
+
+/* hero section start from here  */
+
+.hero-section {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+    left: 0;
+}
+
+.hero-section>.hero-section-text {
+    position: absolute;
+    width: 550px;
+    background-color: #fff;
+    top: 450px;
+    left: 80px;
+    padding: 30px;
+    border-radius: 25px;
+    z-index: 3;
+    box-shadow: 3px 3px 10px gray;
+}
+
+.hero-section-text>h2 {
+    font-size: 3rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+.hero-section-text>p {
+    margin: 30px 0;
+    line-height: 30px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.common-btn {
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: white;
+    background-color: #F67A37;
+}
+
+.common-btn:hover {
+    background-color: black;
+}
+
+.hero-section-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.hero-section-image>img {
+    height: 658px;
+    width: 1150px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.hero-section>.orange-design-section {
+    position: absolute;
+    top: -50px;
+    left: 650px;
+    border-radius: 0 25px 0 0;
+    width: 550px;
+    height: 350px;
+    background-color: #F67A37;
+
+}
+
+/* hero section ends here */
+
+
+
+/* who we are section start from here  */
+.whoWeAre-section {
+    text-align: center;
+    padding-top: 500px;
+    padding-bottom: 100px;
+    background-color: rgb(240, 240, 240);
+}
+
+.common-h2 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.whoWeAre-section>p {
+    margin: 30px auto;
+    width: 600px;
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+/* who we are section ends here */
+
+
+
+/* team member section start from here*/
+.team-members {
+    background-color: #fff;
+}
+
+.team-members>h2 {
+    margin: 250px;
+    margin-bottom: 300px;
+    text-align: center;
+}
+
+.top-images {
+    display: flex;
+    background-color: #F67A37;
+}
+
+.img {
+    height: 150px;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.img>img {
+    height: 311px;
+    width: 238px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.go-top {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    z-index: 5;
+}
+
+.go-bottom {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 5;
+}
+
+
+.bottom-images {
+    margin-top: 500px;
+    display: flex;
+}
+
+/* team member section ends here */
+
+
+
+
+/* join our team section start from here  */
+.join-team {
+    background-image: linear-gradient(rgb(0,0,0, 0.5), rgb(0,0,0, 0.5)), url(./images/contact-background.jpg);
+    background-size: cover;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 300px;
+    background-color: rgb(240, 240, 240);
+}
+
+.join-team-h2 {
+    margin: 20px 0;
+    color: white;
+}
+
+.join-team-btn>button {
+    margin-bottom: 50px;
+}
+
+
+
+
+
+.contact-section {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.form-section {
+    text-align: left;
+    padding: 20px;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 25px 0 0 25px;
+}
+.form-section > h2{
+    font-size: 2rem;
+    text-align: center;
+    color: #F67A37;
+    margin: 20px 0;
+}
+label{
+    margin: 10px 0;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.name-email{
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 1.1rem;
+    border: none;
+    border-bottom: 2px solid #F67A37;
+    
+}
+
+#message{
+    resize: none;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 1.1rem;
+    border: none;
+    border-bottom: 2px solid #F67A37;
+}
+.ters-of-services{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.checkbox{
+    height: 20px;
+    width: 20px;
+}
+.highlight{
+    color: #F67A37;
+}
+.contact-btn > button{
+    margin: 20px 0;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+.address-section {
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
+    border-radius: 0 25px 25px 0;
+    background-color: #F67A37;
+}
+
+
+
+
+
+
+/* join our team section ends here */
+
+
+
+/* footer section start from here  */
+footer{
+    background-color: rgb(30, 30, 30);
+    padding: 40px 0;
+    color: white;
+    text-align: center;
+}
+/* footer section ends here */
