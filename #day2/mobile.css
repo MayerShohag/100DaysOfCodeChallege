@@ -1,0 +1,60 @@
+@media (width <= 768px) {
+  .container{
+    width: 100%;
+  }
+  header {
+    justify-content: space-around;
+  }
+  .profile {
+    display: none;
+  }
+  /* navigation section  */
+  nav ul {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .site-logo {
+    gap: 10px;
+  }
+  /* navigation ends */
+  /* main section start here  */
+  .bannerAndArticle {
+    flex-direction: column;
+  }
+  .banner {
+    width: 100%;
+    padding: 0;
+  }
+  article {
+    width: 100%;
+    padding: 20px;
+  }
+  article h1 {
+    font-size: 1.4rem;
+  }
+  .addToCart {
+    flex-direction: column;
+  }
+  .cart-in-de,
+  .cart-btn {
+    width: 100%;
+  }
+  .album {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .img-1 img,
+  .img-2 img {
+    width: 100%;
+  }
+  .price {
+    font-size: 1.5rem;
+  }
+  .discount {
+    font-size: 0.8rem;
+  }
+  /* main section ends here */
+}

@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+/* header section start from here  */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(200, 200, 200);
+  background-color: white;
+  position: sticky;
+  padding: 10px 0;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+.site-logo {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+nav ul li a {
+  color: rgb(100, 100, 100);
+  padding-bottom: 20px;
+}
+nav ul li a:hover {
+  border-bottom: 5px solid darkorange;
+}
+.profileAndcart {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.cart a {
+  display: flex;
+  border: 1px solid;
+  padding: 6px;
+  border-radius: 50%;
+}
+.cart {
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+.cart:hover {
+  background-color: rgb(240, 240, 240);
+  cursor: pointer;
+  transform: rotate(360deg) scale(1.1);
+}
+
+.menu{
+  display: none;
+}
+
+/* header section ends here  */
+
+/* main section starts from here  */
+.bannerAndArticle {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+.banner {
+  width: 50%;
+  padding: 10px;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+.banner img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+article {
+  width: 50%;
+  padding: 40px;
+}
+article h1 {
+  font-size: 2.1rem;
+  margin: 10px 0;
+}
+.summery-paragraph {
+  margin: 20px 0;
+  color: gray;
+}
+.price {
+  font-size: 2rem;
+  color: darkorange;
+}
+.price-discount {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+.discount {
+  background-color: black;
+  padding: 6px 10px;
+  color: white;
+  border-radius: 10px;
+}
+.previous-price {
+  text-decoration: line-through;
+  color: gray;
+}
+.addToCart {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  margin-top: 25px;
+}
+.de-cart,
+.de-cart a {
+  display: flex;
+  align-items: center;
+}
+.cart-in-de {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  background-color: rgb(230, 230, 230);
+  padding: 10px;
+  border-radius: 10px;
+}
+.cart-btn {
+  width: 50%;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: darkorange;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+button:hover {
+  transform: scale(1.03);
+}
+
+/* slider section start from here  */
+.album {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
+.img-1 img,
+.img-2 img,
+.img-3 img,
+.img-4 img {
+  border-radius: 10px;
+  transition: all 0.5s;
+  border: 2px solid white;
+}
+.img-1 img:hover,
+.img-2 img:hover,
+.img-3 img:hover,
+.img-4 img:hover {
+  transform: scale(1.04);
+  border: 2px solid darkorange;
+  cursor: pointer;
+  filter:sepia(1);
+}
+
+/* slider section ends here */
+
+/* main section ends here */
