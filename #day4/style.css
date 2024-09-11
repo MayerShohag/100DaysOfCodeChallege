@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style-type: none;
+  font-family: "Lato";
+  text-decoration: none;
+}
+.container {
+  background-color: #333333;
+}
+/* header section start from here  */
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background-color: #002b45;
+}
+ul li a {
+  display: inline-block;
+  padding: 10px;
+  color: white;
+}
+ul li a:hover {
+  background-image: linear-gradient(to top, #002b45, #005488);
+}
+
+/* header section ends here */
+
+/* main section start from here  */
+/* banner section start from here  */
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./images/lionello-delpiccolo-XeCRNbA9Gzc-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 260px 0;
+}
+.banner h1 {
+  font-size: 6.5rem;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+.banner p {
+  margin: 40px 0;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+.common-btn {
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  box-shadow: 2px 2px 5px black;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  transition: all 0.5s;
+}
+.common-btn:hover {
+  background-color: #8cff00;
+  border: 2px solid #8cff00;
+  color: black;
+  border-radius: 50px;
+}
+
+/* banner section ends here */
+
+.traveller-explore-adventure-wellness {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.traveller-explore-adventure-wellness > div {
+  border: 5px solid;
+  border-radius: 20px;
+  color: white;
+  width: 23%;
+  text-align: center;
+  padding: 30px;
+}
+.traveller-explore-adventure-wellness h3 {
+  margin: 20px 0;
+  font-size: 1.5rem;
+}
+.traveller-explore-adventure-wellness > div > i {
+  font-size: 4rem;
+  color: orange;
+}
+
+/* traveller-explore-adventure-wellness ends here  */
+/* .good-trip start here  */
+.good-trip {
+  width: 80%;
+  margin: 50px auto;
+}
+.trip-img {
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 50%;
+  border: 10px double white;
+}
+.trip-img img {
+  width: 100%;
+  border-radius: 50%;
+}
+.title-paragraph {
+  text-align: center;
+}
+.common-h2 {
+  margin: 30px 0;
+  margin-top: 50px;
+  color: white;
+  font-size: 4rem;
+  text-shadow: 2px 2px 5px black;
+}
+.common-paragraph {
+  width: 50%;
+  margin: 25px auto;
+  color: white;
+  font-size: 1.3rem;
+  text-shadow: 2px 2px 5px black;
+}
+/* .good-trip ends here */
+
+/* .unique-travel start from here  */
+.unique-travel {
+  width: 80%;
+  margin: 0 auto;
+}
+.unique-travel h2 {
+  text-align: center;
+  margin-top: 200px;
+}
+.unique-travel-stories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+.sport {
+  width: 22%;
+  border: 1px solid;
+  border-radius: 20px;
+  background-color: white;
+}
+.sport-img {
+  width: 100%;
+  height: 65%;
+  padding: 10px;
+}
+.sport-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.sport > h3,
+.sport > p {
+  padding: 5px 20px;
+  text-align: center;
+}
+/* .unique-travel ends here  */
+
+/* paragraphs section start from here  */
+.paragraphs {
+  width: 80%;
+  margin: 200px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.para {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  color: white;
+}
+.fa-check {
+  font-size: 5rem;
+  color: white;
+}
+/* paragraphs section ends here */
+
+/* .unique-camping section start from here  */
+.unique-camping > h2 {
+  text-align: center;
+}
+.unique-camping > p {
+  text-align: center;
+}
+
+.adventure-hikking-camping-recreation {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+}
+.adventures {
+  padding: 20px;
+  color: white;
+}
+.adventures p {
+  margin: 10px 0;
+  line-height: 25px;
+  font-size: 1.1rem;
+}
+.learn-more-btn > button {
+  padding: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px 5px 0 0;
+  border-bottom: 2px solid #54a0f5;
+  color: white;
+  transition: all 0.3s;
+  font-size: 1rem;
+}
+.learn-more-btn > button:hover {
+  background-color: white;
+  color: black;
+}
+/* .unique-camping section end here */
+
+/* tour-nature-wildlife section start from here  */
+.tour-nature-wildlife {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./images/toomas-tartes-Yizrl9N_eDA-unsplash.jpg);
+  background-size: cover;
+  text-align: center;
+  padding: 250px 0;
+}
+.tour-nature-wildlife > p {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+.icons > a > i {
+  font-size: 2rem;
+  color: white;
+  padding: 20px;
+  transition: all 0.4s;
+}
+.icons > a > i:hover {
+  transform: scale(1.4);
+  color: brown;
+}
+/* tour-nature-wildlife section ends here */
+
+/* get in touch section start from here  */
+form {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.name-email {
+  display: flex;
+  gap: 20px;
+}
+.name,
+.email,
+#email,
+#name {
+  width: 100%;
+  height: 40px;
+}
+#email,
+#name {
+  width: 100%;
+  padding: 0 10px;
+  background-color: #404040;
+  border: none;
+  color: white;
+  border-bottom: 2px solid white;
+  font-size: 1rem;
+}
+#message {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  resize: none;
+  border: none;
+  margin: 20px 0;
+  font-size: 1rem;
+  background-color: #404040;
+  border: none;
+  color: white;
+  border-bottom: 2px solid white;
+}
+.form-btn > button {
+  width: 100%;
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s;
+}
+.form-btn > button:hover {
+  background-color: #404040;
+  color: white;
+}
+/* get in touch section ends here */
+/* main section ends here */
+
+/* footer section start from here  */
+footer > p {
+  padding: 50px 0;
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-size: 1.2rem;
+}
+/* footer section ends here */
