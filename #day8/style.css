@@ -1,0 +1,445 @@
+* {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --primary-color: rgb(6, 193, 103);
+    --darkGray: #656161;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.global-row {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo>a>h1 {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav ul li a {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav ul li a:hover,
+.nav ul li a:focus {
+    color: var(--primary-color);
+    border: none;
+    padding-bottom: 5px;
+    border-bottom: 7px dotted var(--primary-color);
+}
+
+/* header section ends here */
+
+
+
+/* hero section :start from here  */
+.hero-section {
+    margin: 100px 0;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-section-text {
+    width: 50%;
+    padding-right: 30px;
+}
+
+.hero-section-text>h2 {
+    font-size: 75px;
+    font-weight: 600;
+}
+
+.hero-section-text>p {
+    font-size: 16px;
+    margin: 30px 0;
+    font-weight: 400;
+}
+
+.btn {
+    padding: 15px 30px;
+    background-color: var(--primary-color);
+    border: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.hero-section-image {
+    width: 50%;
+}
+
+/* hero section ends here */
+
+
+
+/* .service-section start from here  */
+.service-section {
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    border: 2px solid rgb(208, 208, 208);
+    border-radius: 15px;
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.services-text>h4 {
+    font-weight: 500;
+}
+
+.services-text>p {
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.services > i{
+    color: var(--primary-color);
+    font-size: 1.4rem;
+}
+
+/* .service-section ends here  */
+
+
+
+
+/* .benefit-section start from here  */
+.benefit-section {
+    margin: 100px 0;
+    gap: 60px;
+    align-items: center;
+    display: flex;
+}
+
+.benefit-section-img {
+    width: 50%;
+}
+
+.benefit-section-img>img {
+    border-radius: 20px;
+}
+
+.benefit-section-text {
+    width: 50%;
+    padding-left: 130px;
+}
+
+.benefit-section-text>p {
+    font-weight: 400;
+}
+
+.benefit-section-text>h2 {
+    margin: 20px 0;
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.food-list>ul {
+    padding-left: 30px;
+}
+
+.food-list>ul>li {
+    margin: 5px 0;
+    list-style-image: url(images/check-icon.png);
+
+}
+
+/* .benefit-section ends here */
+
+
+/* .veggie-food-section start from here  */
+.veggie-food-section {
+    margin: 100px 0;
+    display: flex;
+    align-items: center;
+}
+
+.veggie-food-text {
+    width: 50%;
+}
+
+.veggie-food-text>h2 {
+    margin: 20px 0;
+    font-size: 60px;
+}
+
+.sold-feedback-store {
+    padding: 30px 0;
+    gap: 100px;
+    display: flex;
+    text-align: center;
+}
+
+.product>h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.veggie-food-image {
+    width: 50%;
+}
+
+.veggie-food-image>img {
+    border-radius: 20px;
+}
+
+/* .veggie-food-section ends here */
+
+
+/* .varity-of-Foods section start from here  */
+.varity-of-Foods {
+    margin: 100px 0;
+}
+
+.varity-of-Foods>p {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.varity-of-Foods>h2 {
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.foods-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foods-image {
+    width: 25%;
+    height: 292.5px;
+}
+
+.foods-image>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.foods-text {
+    width: 25%;
+    padding: 40px;
+    border: 2px solid var(--primary-color);
+}
+
+.foods-text>h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.foods-text>p {
+    margin: 30px 0;
+}
+
+.foods-btn>button {
+    padding: 10px 30px;
+    background-color: rgb(230, 249, 240);
+    border: none;
+    color: var(--primary-color);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* .varity-of-Foods section ends here */
+
+
+/* .most-popular- product section start from here  */
+.popular-product-section {
+    margin: 100px 0;
+}
+
+.popular-product-section>p {
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.popular-product-section>h2 {
+    font-size: 60px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.popular-items {
+    margin: 50px 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.most-popular-item {
+    cursor: pointer;
+    padding: 40px;
+    border: 2px solid gray;
+    transition: all 0.4s;
+}
+
+.most-popular-item:hover {
+    transform: scale(1.03);
+    border: 2px solid var(--primary-color);
+}
+
+.most-popular-item>h4 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.most-popular-item>p {
+    margin: 20px 0;
+    font-size: 30px;
+    color: var(--primary-color);
+}
+
+.most-popular-item-btn>button {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+}
+
+.most-popular-item-btn>button:hover {
+    background-color: black;
+}
+
+/* .most-popular- product section ends here */
+
+
+/* ingredient-food-section section starts from here  */
+.ingredient-food-section {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)), url(./images/Rectangle\ 8.png);
+    text-align: center;
+    margin: 100px 0;
+    padding: 100px 0;
+}
+
+.ingredient-food-section>h2 {
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+}
+
+.ingredient-btn {
+    margin-top: 40px;
+}
+.ingredient-btn:hover{
+    background-color: white;
+    color: black;
+}
+/* ingredient-food-section section ends here */
+
+
+/* footer section start from here  */
+footer {
+    background-color: rgb(10, 10, 10);
+    color: white;
+    padding: 50px 20px;
+}
+footer >p{
+    text-align: center;
+    margin-top: 40px;
+}
+.footer-details {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footer-about-icons,.get-in-touch-section {
+    width: 30%;
+}
+
+.footer-about-icons>h2 {
+    color: var(--primary-color);
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.footer-about-icons>p {
+    margin: 30px 0;
+    line-height: 25px;
+}
+
+.footer-about-icons>a>i {
+    font-size: 2rem;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+}
+.common-h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.about-us-section, .company-section {
+    width: 20%;
+}
+.about-us-section > ul >li>a, .company-section>ul>li>a{
+    line-height: 35px;
+    color: white;
+}
+.get-in-touch-section > p{
+    margin: 20px 0;
+}
+.email-section{
+    display: flex;
+}
+.email > input{
+    padding: 12px 10px;
+    border: none;
+    width: 200px;
+}
+.email-btn > button{
+    padding: 10.5px 20px;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    border: none;
+    transition: all 0.3s;
+}
+.email-btn > button:hover{
+    background-color: white;
+    color: black;
+}
+/* footer section ends here */
