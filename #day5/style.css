@@ -1,0 +1,520 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Questrial", sans-serif;
+}
+
+.container {
+    background-color: #16152F;
+}
+
+
+
+
+/* header section start from here  */
+header {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: #16152F;
+}
+
+/* navigarion section start here  */
+.logo-nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 18px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+.fa-list {
+    color: white;
+    font-size: 1.1rem;
+}
+
+.fa-arrow-right-from-bracket {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.search-user-icons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+[type=search] {
+    height: 35px;
+    width: 250px;
+    padding-left: 10px;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+[type=search]::placeholder {
+    text-align: right;
+    color: white;
+    background-image: url(./images/search.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.user-img {
+    width: 35px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.user-img>a {
+    display: flex;
+    align-items: center;
+}
+
+#all-course::after {
+    content: "|";
+}
+
+/* navigarion section ends here */
+/* header section ends here  */
+
+
+
+
+
+
+
+
+/* hero section start here  */
+.hero-section {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 90px 30px;
+}
+
+.hero-section-title>h1 {
+    font-size: 60px;
+    line-height: 70px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.hero-section-h3 {
+    line-height: 15px;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.students-images {
+    display: flex;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.hero-images {
+    display: flex;
+}
+
+.student-1 {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    border: 2px solid white;
+}
+
+.student-1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.explore-courses {
+    display: flex;
+}
+
+.explore-courses h2 {
+    line-height: 30px;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+.hero-section-courses {
+    width: 550px;
+}
+
+/* hero section ends here */
+
+
+/* explore .programs section start  */
+.explore-programs {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+
+.common-h2 {
+    font-size: 60px;
+    text-align: center;
+    padding: 40px 0;
+    font-weight: 400;
+    text-shadow: 2px 2px 5px black;
+    color: white;
+}
+
+.programs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.technology {
+    border-radius: 20px;
+    width: 49%;
+    padding: 35px;
+    background-image: linear-gradient(to right, #53F4F4, #3A8B95);
+}
+
+.technology {
+    display: flex;
+    align-items: center;
+}
+
+.article {
+    width: 70%;
+    color: black;
+}
+
+.technology-img {
+    width: 30%;
+    text-align: right;
+}
+
+.article>h3 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.article>p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    margin: 20px 0;
+}
+
+.explore-btn>button {
+    padding: 13px 60px;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 40px;
+    color: white;
+    background-color: #17152F;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.explore-btn>button:hover {
+    background-color: #0369A1;
+}
+
+/* explore .programs ends  */
+
+
+
+/* courses section start here  */
+.section-need-space {
+    margin-top: 150px;
+}
+
+.courses-cards {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.courses-cards>div {
+    width: 32%;
+    padding: 12px;
+    background-color: rgb(144, 228, 193);
+    border-radius: 10px;
+}
+
+.course-1-img {
+    width: 100%;
+    height: 220px;
+}
+
+.course-1-img>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-article-para {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.lessons-quiz {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.lessons,
+.quiz,
+.lessons-quiz-section {
+    display: flex;
+    gap: 10px;
+}
+
+/* courses section ends here */
+
+
+/* free-master-class start here  */
+.free-master-class {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.free-master-classes {
+    display: flex;
+    gap: 20px;
+}
+
+.free-master-classes>div {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+.courses-btn>button {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 2px solid #5F78C6;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.courses-btn>button:hover {
+    background-color: #5F78C6;
+    color: white;
+}
+
+/* free-master-class ends */
+
+
+
+/* grow-with-us section start here */
+.grow-with-us {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 150px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.learn-practice-hire-apply {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+
+.learn-practice-hire-apply>div {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #23233F;
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.learn-practice-hire-apply>div>p {
+    margin: 10px 0;
+}
+
+/* grow-with-us section ends here */
+
+/* our-company-partner section start from here  */
+.our-company-partner {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.company-logo {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.company-logo>div {
+    background-color: #fff;
+    padding: 5px 40px;
+    border-radius: 10px;
+}
+
+#partners {
+    color: #18B3C7;
+}
+
+/* our-company-partner section ends here */
+
+
+
+/* Hassle Free Hiring section start from here  */
+.jobs-talents {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.jobs-talents>div>button {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.find-job-btn>button {
+    color: #FC1C69;
+
+}
+
+.find-job-btn>button:hover {
+    background-color: #FC1C69;
+    color: white;
+}
+
+.find-talent-btn>button {
+    background-image: linear-gradient(to left, #262276, #3B78AD);
+    color: white;
+}
+
+.find-talent-btn>button:hover {
+    background-image: linear-gradient(to left, #FF4500, #FF8300);
+    color: white;
+}
+
+/* Hassle Free Hiring section ends here */
+
+
+
+/* footer section start from here  */
+footer {
+    padding: 100px 0;
+    background-image: linear-gradient(to bottom, #22384E, #16152F, #16152F, #16152F);
+    padding-bottom: 60px;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+
+.footer-items {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.footer-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left>div {
+    width: 30%;
+}
+
+.logo-sections-about {
+    line-height: 25px;
+    margin: 15px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.quick-links-list>li>a {
+    color: white;
+}
+
+
+.social-icons {
+    margin: 10px 0;
+}
+
+.social-icons>a>i {
+    font-size: 2rem;
+    color: aqua;
+    border: none;
+    padding: 5px;
+
+}
+
+.last-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.last-footer-ul {
+    display: flex;
+}
+
+#termsOfuse::after {
+    content: "|";
+}
+
+/* footer section ends here  */
