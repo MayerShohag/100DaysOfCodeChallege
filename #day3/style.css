@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "roboto";
+  list-style: none;
+  text-decoration: none;
+}
+.row {
+  width: 80%;
+  margin: 100px auto;
+}
+/* header section starts from here  */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: rgb(245, 245, 245);
+}
+
+
+/* site logo section start  */
+.icons-logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon-left {
+    transform: rotate(-45deg);
+    font-size: 1.8rem;
+    color: blueviolet;
+}
+
+.icons-logo h1 {
+    color: blueviolet;
+}
+
+/* site logo section ends  */
+/* navigation menu start  */
+.nav-menu ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-menu ul li a {
+    color: rgb(0, 0, 0, 0.8);
+    font-weight: 600;
+}
+
+.nav-menu ul li a:hover {
+    padding-bottom: 15px;
+    border-bottom: 5px solid blueviolet;
+}
+
+
+.nav-menu ul li a:focus {
+    color: black;
+    padding-bottom: 18px;
+    border-bottom: 2px solid gray;
+}
+
+/* navigation menu ends */
+/* search cart section start  */
+.search-cart {
+    display: flex;
+    gap: 10px;
+}
+.search-icon,
+.card-icon, .toggle-btn{
+    font-size: 1rem;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 1px solid blueviolet;
+}
+.toggle-btn{
+    display: none;
+}
+.search-icon:hover,
+.card-icon:hover,
+.toggle-btn:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.book-c-btn {
+    padding: 8px 10px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    transition: all 0.2s;
+    cursor: pointer;
+    color: white;
+}
+
+.book-c-btn:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.book-c-arrow {
+    transform: rotate(-35deg);
+    font-size: 1rem;
+}
+
+/* search cart section ends  */
+/* header section ends  */
+
+/* main section starts from here  */
+/* banner section starts from here  */
+.banner-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./images/background.jpg");
+  background-size: cover;
+  padding: 100px;
+}
+.banner-article {
+  width: 60%;
+  color: white;
+}
+.banner-article h1 {
+  color: orange;
+  font-size: 4rem;
+  margin: 20px 0;
+}
+.banner-article p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: justify;
+}
+/* banner section ends here */
+
+/* IT Solution Strategy section start from here  */
+.section-h2 {
+  margin: 30px 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.itSolutionStrategy-paragraph {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(245, 245, 245);
+  border-radius: 20px;
+  border: 1px solid rgb(200, 200, 200);
+}
+.section-p{
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.itSolutionStrategy-paragraph > div {
+  width: 50%;
+}
+.strategy-paragaph {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+.fa-droplet {
+  margin-right: 20px;
+  font-size: 3rem;
+  color: limegreen;
+}
+
+/* IT Solution Strategy section ends here  */
+/* about section start from here  */
+
+.about-us{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 20px;
+}
+.about-article{
+    width: 50%;
+    text-align: justify;
+}
+.article-side-images{
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    color: gray;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.about-us-img{
+    width: 100%;
+}
+#about-us-side-img{
+    width: 100%;
+    border-radius: 50%;
+}
+.extra-space-p{
+    margin: 20px 0;
+}
+/* about section ends here  */
+/* Business Solution section start from here  */
+.business-solution{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 20px;
+    border: 1px solid rgb(200, 200, 200);
+}
+.p-need-padding{
+    padding: 0 100px;
+}
+.visualize-create-grow{
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.visualize-create-grow > div{
+    width: 33.33%;
+    padding: 20px;
+}
+.visualize-create-grow h3{
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0, 0.8);
+}
+.visualize-create-grow-p{
+    line-height: 25px;
+    font-weight: 300;
+}
+/* Business Solution section ends here*/
+
+
+/* client section starts from here  */
+.client-say{
+    background-color: lightcoral;
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 50px;
+}
+.client-say > p{
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.client-speech{
+    background-color: white;
+    width: 60%;
+    padding: 30px 40px;
+    color: rgb(0, 0, 0, 0.6);
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.client-speech-img{
+    width: 50%;
+    margin: 0 auto;
+}
+#clients{
+    margin: 20px 0;
+    border-radius: 50%;
+    width: 100%;
+}
+/* client section ends here  */
+
+/* contact us section start from here  */
+
+
+.contact-us{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./images/background.jpg");
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+form{
+    width: 60%;
+    background-color: rgb(230, 230, 230);
+    padding: 30px;
+    border-radius: 20px;
+}
+.name, .email, .textarea{
+    width: 100%;
+    margin: 20px 0;
+}
+#email, #name{
+    width: 100%;
+    height: 40px;
+    padding: 0 10px ;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px 5px 0 0;
+    font-size: 1.1rem;
+    border-bottom: 2px solid black;
+    transition: all 0.4s;
+}
+#message{
+    width: 100%;
+    resize: none;
+    height: 100px;
+    padding: 10px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    border-left: 10px solid black;
+    transition: all 0.4s;
+}
+#email:focus, #name:focus, #message:focus{
+    background-color: rgb(230, 230, 230);
+}
+label{
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 1.4rem;
+}
+
+.contact-us-btn{
+    width: 100%;
+}
+[type="submit"]{
+    height: 40px;
+    width: 100%;
+    background-color: #1DBF7F;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+}
+[type="submit"]:hover{
+    background-color: #1ab275;
+}
+
+/* contact us section ends here  */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* main section ends here */

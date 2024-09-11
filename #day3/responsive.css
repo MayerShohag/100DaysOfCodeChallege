@@ -1,0 +1,100 @@
+/* for laptop responsive start here  */
+@media (width <= 900px) {
+  .nav-menu ul {
+    display: none;
+  }
+  .banner-article {
+    width: 80%;
+    color: white;
+  }
+  .p-need-padding {
+    padding: 0 50px;
+  }
+}
+/* from laptop responsive ends here */
+
+/* for tablet responsive start here  */
+@media (width <=768px) {
+  .banner-article {
+    width: 90%;
+    color: white;
+  }
+  .itSolutionStrategy-paragraph {
+    flex-direction: column;
+  }
+  .itSolutionStrategy-paragraph > div {
+    width: 100%;
+  }
+  .about-us {
+    flex-direction: column;
+  }
+  .about-article {
+    width: 100%;
+    text-align: justify;
+  }
+  .article-side-images {
+    width: 100%;
+  }
+  .p-need-padding {
+    padding: 0 20px;
+  }
+  .client-speech-img{
+    width: 100%;
+  }
+  .client-speech-img img{
+    margin: 20px 0;
+    border-radius: 50%;
+    width: 60%;
+}
+}
+
+/* for tablet responsive ends  */
+
+/* for large mobile responsive start here  */
+@media (width <=440px) {
+  .book-consult-btn {
+    display: none;
+  }
+  .cart-sec {
+    display: none;
+  }
+  header {
+    justify-content: space-evenly;
+  }
+
+  .banner-article > h1 {
+    font-size: 3rem;
+  }
+  .banner-section {
+    width: 100%;
+    color: white;
+    padding: 30px;
+  }
+
+  .strategy-paragaph {
+    flex-direction: column;
+  }
+  .fa-droplet {
+    margin: 10px 0;
+  }
+  .p-need-padding {
+    padding: 0;
+  }
+  .visualize-create-grow {
+    flex-direction: column;
+  }
+  .visualize-create-grow > div {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .client-speech{
+    width: 90%;
+}
+form{
+    width: 80%;
+    background-color: rgb(230, 230, 230);
+    padding: 30px;
+    border-radius: 20px;
+}
+}
+/* for large mobile responsive ends  */
