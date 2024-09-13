@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "padma";
+    src: url(./AlinurNakkhatra/Unicode/Li\ Alinur\ Nakkhatra\ Unicode.ttf);
+}
+@font-face {
+    font-family: "abu-sayed";
+    src: url(./ShohidAbuSayed/Unicode/Li\ Shohid\ Abu\ Sayed\ Unicode.ttf);
+}
+*{
+    font-family: "padma";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(240, 240, 240);
+}
+.global-row{
+    width: 70%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+}
+.hero-section-text > h1{
+    text-align: center;
+    font-size: 5rem;
+    background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.hero-section-image{
+    width: 100%;
+    margin: 20px 0;
+    padding: 50px;
+}
+.hero-section-image > img{
+    width: 100%;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.hero-section-image > img:hover{
+    transform: scale(1.03);
+}
+p{
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0 20px;
+    margin: 20px 0;
+    font-family: "abu-sayed";
+}
+h3{
+    font-size: 1.5rem;
+    text-align: justify;
+    margin: 10px 0;
+}
+ol {
+    margin-left: 40px;
+}
+li {
+    font-size: 20px;
+    font-family: "abu-sayed";
+}
