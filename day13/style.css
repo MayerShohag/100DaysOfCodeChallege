@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    list-style-type: none;
+}
+.global-row{
+    width: 90%;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+
+/* navigation section starts from here*/
+header{
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-section > img{
+    width: 150px;
+}
+nav > ul {
+    display: flex;
+    gap: 30px;
+}
+nav ul > li > a{
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav-btn{
+    display: flex;
+}
+.nav-btn button{
+    padding: 8px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 600;
+}
+.login > button{
+    background: #54B8FF;
+    color: white;
+}
+
+/* navigation section ends here  */
+
+
+/* hero section starts from here  */
+/* hero section text part start  */
+.hero-section{
+    display: flex;
+    align-items: center;
+}
+.hero-section-text{
+    width: 50%;
+    margin: 200px 0;
+}
+.hero-section-text > span{
+    color: #2F2B71;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hero-section-text > h1{
+    font-size: 70px;
+    font-weight: 900;
+    color: #5F596E;
+    line-height: 80px;
+}
+.hero-section-text > p{
+    width: 500px;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.hero-section-btn > button{
+    padding: 10px 30px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color: #54B8FF;
+}
+
+.hero-section-image{
+    width: 50%;
+    padding: 20px;
+}
+.main-img > img{
+    width: 90%;
+}
+/* hero section text part ends  */
+
+/* hero section image part start  */
+.hero-section-image{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.mini-img-1{
+    position: absolute;
+    top: 160px;
+    left: 60px;
+}
+.mini-img-2{
+    position: absolute;
+    top: 50px;
+    left: 140px;
+}
+.mini-img-3{
+    position: absolute;
+    top: -40px;
+    left: 290px;
+}
+.mini-img-4{
+    position: absolute;
+    top: 60px;
+    right: 150px;
+}
+.mini-img-5{
+    position: absolute;
+    top: 200px;
+    right: 120px;
+}
+/* hero section image part ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hero section ends here */
