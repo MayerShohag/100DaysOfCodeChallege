@@ -39,7 +39,7 @@ h1{
     font-size: 2rem;
     font-weight: 900;
     font-family: sans-serif;
-    transition: all 0.3s;
+    transition: all 0.1s;
 }
 .btn:focus{
     box-shadow: inset 0px -5px 10px;
