@@ -53,6 +53,7 @@ nav ul li a:hover, nav ul li a:focus{
 }
 .logo-btn > button{
     display: flex;
+    transition: all 0.3s;
     align-items: center;
     gap: 10px;
     color: white;
@@ -62,6 +63,9 @@ nav ul li a:hover, nav ul li a:focus{
     background: #FF001D;
     font-weight: 500;
     cursor: pointer;
+}
+.logo-btn > button:hover{
+    background-color: #d80019;
 }
 .fa-bars{
     color: white;
@@ -86,6 +90,7 @@ nav ul li a:hover, nav ul li a:focus{
 .hero-section-btns{
     display: flex;
     gap: 20px;
+    margin-top: 30px;
 }
 .hero-section-btns > button{
     border-radius: 15px;
@@ -97,10 +102,19 @@ nav ul li a:hover, nav ul li a:focus{
 .red-btn{
     background-color: red;
     border: none;
+    transition: all 0.3s;
+}
+.red-btn:hover{
+    background-color: #d80019;
 }
 .transparent-btn{
     background-color: transparent;
     border: 1px solid white;
+    transition: all 0.3s;
+}
+.transparent-btn:hover{
+    background-color: #fff;
+    color: black;
 }
 
 /* hero section ends here */
@@ -114,14 +128,24 @@ nav ul li a:hover, nav ul li a:focus{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: space-between;
 }
-.services-section > *{
-    flex: 1;
+.section-services-item{
+    background-color: #2f2f2f;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    height: 250px;
+    transition: all 0.4s;
+    width: 32.2%;
+}
+.section-services-item:hover{
+    transform: scale(1.03);
+    background-color: #d80019;
+    cursor: pointer;
 }
 .services-text{
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
 }
 .services-text > p{
@@ -142,12 +166,167 @@ nav ul li a:hover, nav ul li a:focus{
     bottom: 20px;
     left: 20px;
 }
-.section-services-item{
-    border: 1px solid white;
-    border-radius: 20px;
-    padding: 20px;
-    position: relative;
-    height: 250px;
-}
 
 /* .services-section ends here */
+
+
+
+
+/* slider section starts from here  */
+.slider-section{
+    background-color: #f6f6f6;
+    padding: 50px;
+    margin: 40px 0;
+    border-radius: 20px;
+}
+.slider-section-text > h2{
+    color: black;
+    font-size: 55px;
+    font-weight: 600;
+}
+.slider-section-text {
+    display: flex;
+    justify-content: space-between;
+}
+.slider-section-btn > button{
+    padding: 10px;
+    font-size: 18px;
+}
+.slider-section-btn :nth-of-type(1){
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.slider-section-btn :nth-of-type(2){
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+.fa-arrow-left{
+    color: black;
+}
+.fa-arrow-right{
+    color: black;
+    cursor: pointer;
+}
+
+
+
+.cars-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.slider-cars-image, .slider-cars-image > img{
+    width: 100%;
+    object-fit: cover;
+}
+.slider-cars{
+    transition: all 0.3s;
+    width: 312px;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.slider-cars:hover{
+    transform: scale(1.03);
+}
+
+
+.slider-cars-text > h3{
+    margin: 15px 0;
+    color: black;
+}
+.slider-cars-text > p{
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+
+.social-media {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e6e6e6;
+    padding: 30px;
+    border-radius: 20px;
+}
+.social-media > h4, .social-media i{
+    color: black;
+}
+.social-media > .uk-media, .insta, .yt{
+    color: black;
+    background-color: #fff;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+/* slider section ends here  */
+
+
+/* footer section starts from here  */
+footer{
+    background-color: red;
+    border-radius: 20px;
+    padding: 50px;
+    display: flex;
+    gap: 20px;
+}
+.info-buttons{
+    width: 50%;
+}
+.footer-right-part{
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.cars-washing{
+    width: 48%;
+}
+.cars-washing > h3{
+    margin: 15px 0;
+}
+
+.info-buttons > h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+.info-buttons > p{
+    margin: 30px 0;
+    font-size: 20px;
+    width: 70%;
+}
+.footer-btns > button{
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-top: 100px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.footer-transparent-btn {
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 18px;
+}
+.footer-transparent-btn:hover{
+    background-color: white;
+    color: black;
+}
+.white-btn{
+    border: none;
+    color: black;
+    font-size: 18px;
+    border: 1px solid transparent;
+}
+.white-btn:hover{
+    background-color: #000000;
+    color: white;
+}
+/* footer section ends here */
