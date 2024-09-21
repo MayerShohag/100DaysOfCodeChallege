@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+
+/* header section starts from here  */
+header {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.global-row {
+    background-image: url(./images/bg-tablet-pattern.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 90px -20px;
+}
+
+nav ul {
+    display: none;
+}
+
+.header-btn>button {
+    display: none;
+}
+
+.humberger-icon {
+    color: darkblue;
+    font-size: 25px;
+}
+
+/* header section ends here */
+
+/* hero section starts from here  */
+.hero-section {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.hero-section-image {
+    width: 100%;
+}
+
+.hero-section-image>img {
+    width: 100%;
+}
+
+.hero-section-text {
+    text-align: center;
+    padding-bottom: 100px;
+    background-image: url(./images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 300px -30px;
+}
+
+.hero-section-text>h1 {
+    color: hsl(228, 39%, 23%);
+    font-size: 30px;
+}
+
+.hero-section-text>p {
+    color: gray;
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.common-btn {
+    padding: 15px 40px;
+    border: none;
+    border-radius: 40px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    background-color: hsl(13, 100%, 60%);
+    box-shadow: 0 5px 10px hsl(13, 100%, 70%);
+}
+
+/* hero section ends here */
+
+
+
+/* service section starts from here  */
+.service-section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.service-left {
+    text-align: center;
+}
+
+.service-left>h2 {
+    font-size: 30px;
+    color: hsl(228, 39%, 23%);
+}
+
+.service-left>p {
+    font-size: 18px;
+    color: gray;
+    margin: 20px 0;
+    line-height: 30px;
+}
+
+
+.service-right>ol {
+    padding: 15px;
+}
+
+.service-right>ol>li {
+    background-color: hsl(13, 100%, 96%);
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    color: hsl(233, 12%, 50%);
+}
+
+.service-right ol li+p {
+    padding: 15px;
+    color: gray;
+}
+
+/* service section ends here */
+
+
+/* team member section starts from here  */
+.team-member-section {
+    margin: 100px 0;
+    text-align: center;
+}
+
+.team-member-section>h2 {
+    margin-bottom: 50px;
+    color: rgba(0, 0, 147, 0.7);
+    font-size: 30px;
+    font-size: 900;
+}
+.members{
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: #dedede;
+    margin: 40px 20px;
+    padding: 10px;
+    transition: all 0.4s;
+}
+.members:hover{
+    transform: scale(1.02);
+}
+
+
+.members>h4 {
+    margin: 20px;
+    font-size: 20px;
+    color: rgba(0, 0, 181, 0.7);
+    font-size: 700;
+}
+
+.members>p {
+    width: 70%;
+    margin: 0 auto;
+    line-height: 25px;
+    color: gray;
+}
+
+.team-m-btn {
+    margin-top: 50px;
+}
+
+
+/* team member section ends here */
+
+
+/* team work section starts from here  */
+.team-work-section {
+    text-align: center;
+    color: white;
+    background-color: hsl(13, 100%, 60%);
+    padding: 150px 20px;
+}
+
+.team-work-btn {
+    margin-top: 50px;
+    background-color: white;
+    color: hsl(13, 100%, 60%);
+}
+
+/* team work section ends here */
+
+
+
+/* footer section starts from here  */
+footer {
+    background-color: rgb(22, 22, 35);
+    padding: 20px;
+}
+
+.footer-contact {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin: 30px 0;
+}
+
+.footer-contact>input {
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.footer-contact>button {
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: hsl(13, 100%, 60%);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.footer-privacy-policy {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.footer-privacy-policy>ul {
+    list-style-type: none;
+    line-height: 40px;
+}
+
+.footer-privacy-policy>ul li a {
+    color: white;
+}
+
+
+
+.footer-icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-icons>i {
+    font-size: 30px;
+    color: white;
+}
+
+.footer-logo {
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* footer section ends here */
