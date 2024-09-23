@@ -1,0 +1,100 @@
+@media (max-width: 426px) {
+    .global-row {
+        margin: 10px;
+    }
+    .toggle-icon{
+        display: block;
+    }
+    header {
+        position: static;
+    }
+    .toggle-icon > i{
+        font-size: 30px;
+        cursor: pointer;
+    }
+    nav ul {
+        display: none;
+    }
+
+
+    /* hero section starts from here  */
+    .hero-section{
+        flex-direction: column-reverse;
+    }
+    .hero-section-text {
+        width: 80%;
+    }
+
+    .hero-section-text>#Portfolio-name {
+        font-size: 1.1rem;
+    }
+    .hero-section-text>h2 {
+        font-size: 2rem;
+    }
+    .hero-section-image {
+        width: 70%;
+        transition: all 0.5s;
+        display: flex;
+    }
+
+    /* hero section ends here  */
+
+    /* services section starts from here  */
+    .service-section {
+        width: 90%;
+    }
+    .common-h2 {
+        font-size: 30px;
+        margin-top: 100px;
+    }
+    
+    hr {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .services {
+        width: 90%;
+        margin: 20px auto;
+        flex-direction: column;
+    }
+    .services:hover {
+        transform: scale(1.05);
+    }
+    .service-image {
+        width: 100%;
+    }
+    .service-text {
+        width: 100%;
+        text-align: left;
+        padding: 10px;
+    }
+    
+    
+    
+    /* services section ends here */
+
+    /* contact section starts from here  */
+    form {
+        width: 90%;
+        background-color: #333;
+        padding: 30px;
+        border-radius: 20px;
+    }
+
+
+
+    /* contact section ends here */
+    /* footer section starts from here  */
+    footer > a{
+        position: absolute;
+        bottom: 10px;
+        right: 150px;
+    }
+    footer{
+        width: 90%;
+        margin-bottom: 80px;
+        padding: 10px 0;
+    }
+    /* footer section ends here */
+}
