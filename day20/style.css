@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "C-font";
+}
+@font-face {
+    font-family: "C-font";
+    src: url(./images/fonts/Figtree-VariableFont_wght.ttf);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.card{
+    background-color: hsl(0, 0%, 100%);
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 10px 10px black;
+}
+.card-image{
+    width: 100%;
+    height: auto;
+}
+.card-image > img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+button{
+    padding: 5px 10px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: hsl(47, 88%, 63%);
+    margin-top: 10px;
+}
+.date{
+    margin: 20px 0;
+}
+
+h3{
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.text{
+    color: hsl(0, 0%, 42%);
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.user-profile-name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile{
+    width: 40px;
+}
+.profile > img{
+    width: 100%;
+}
+
+.user-profile-name > h4{
+    font-weight: 800;
+}
