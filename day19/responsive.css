@@ -2,25 +2,30 @@
     .global-row {
         margin: 10px;
     }
-    .toggle-icon{
+
+    .toggle-icon {
         display: block;
     }
+
     header {
         position: static;
     }
-    .toggle-icon > i{
+
+    .toggle-icon>i {
         font-size: 30px;
         cursor: pointer;
     }
+
     nav ul {
         display: none;
     }
 
 
     /* hero section starts from here  */
-    .hero-section{
+    .hero-section {
         flex-direction: column-reverse;
     }
+
     .hero-section-text {
         width: 80%;
     }
@@ -28,9 +33,11 @@
     .hero-section-text>#Portfolio-name {
         font-size: 1.1rem;
     }
+
     .hero-section-text>h2 {
         font-size: 2rem;
     }
+
     .hero-section-image {
         width: 70%;
         transition: all 0.5s;
@@ -43,11 +50,12 @@
     .service-section {
         width: 90%;
     }
+
     .common-h2 {
         font-size: 30px;
         margin-top: 100px;
     }
-    
+
     hr {
         width: 50%;
         margin-bottom: 30px;
@@ -58,20 +66,23 @@
         margin: 20px auto;
         flex-direction: column;
     }
+
     .services:hover {
         transform: scale(1.05);
     }
+
     .service-image {
         width: 100%;
     }
+
     .service-text {
         width: 100%;
         text-align: left;
         padding: 10px;
     }
-    
-    
-    
+
+
+
     /* services section ends here */
 
     /* contact section starts from here  */
@@ -86,15 +97,101 @@
 
     /* contact section ends here */
     /* footer section starts from here  */
-    footer > a{
+    footer>a {
         position: absolute;
         bottom: 10px;
         right: 150px;
     }
-    footer{
+
+    footer {
         width: 90%;
         margin-bottom: 80px;
         padding: 10px 0;
     }
+
     /* footer section ends here */
 }
+
+
+
+/* 426 max-width ends here  */
+/* 769 max-width starts from here  */
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column-reverse;
+    }
+
+    .hero-section-text {
+        width: 100%;
+    }
+
+    .hero-section-text>#Portfolio-name {
+        text-align: center;
+    }
+
+    .hero-section-text>h2 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .describe {
+        line-height: 25px;
+        font-size: 19px;
+    }
+
+    .hire {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .social-icon {
+        font-size: 2.3rem;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    /* hero section ends here  */
+    /* services section starts here  */
+    .common-h2 {
+        margin-top: 150px;
+        font-size: 40px;
+    }
+
+    hr {
+        width: 40%;
+    }
+
+    .services {
+        flex-direction: column;
+    }
+
+    .service-image {
+        width: 100%;
+    }
+
+    .service-text {
+        width: 100%;
+        background-color: #333;
+        text-align: justify;
+        padding: 10px;
+    }
+
+    /* services section ends here  */
+
+    /* client review section starts from here  */
+    .clients {
+        width: 450px;
+    }
+
+    /* client review section ends here */
+
+
+    /* contact section starts from here  */
+    form {
+        width: 80%;
+    }
+
+    /* contact section ends here */
+}
+
+/* 769 max-width ends here  */
